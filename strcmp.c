@@ -1,3 +1,6 @@
+#include<stdio.h>
+#include<string.h>
+
 int main()
 {
     char a[100], b[100];
@@ -6,9 +9,9 @@ int main()
     Getting the strings
     */
     printf("Enter the first string\n");
-    gets(a);
+    scanf("%s", a);
     printf("Enter the second string\n");
-    gets(b);
+    scanf("%s", b);
 
     /*
     Comparing strings.
